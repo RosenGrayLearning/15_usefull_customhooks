@@ -5,6 +5,7 @@ import UpdateEffectComponent from './components/UpdateEffectComponent/UpdateEffe
 import ArrayComponent from './components/ArrayComponent/ArrayComponent';
 import PreviousComponent from './components/PreviousComponent/PreviousComponent';
 import StateWithHistoryComponent from './components/StateWithHistoryComponent/StateWithHistoryComponent';
+import StorageComponent from './components/StorageComponent/StorageComponent';
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
       {/* <UpdateEffectComponent/> */}
       {/* <ArrayComponent /> */}
       {/* <PreviousComponent/> */}
-      <StateWithHistoryComponent/>
+      {/* <StateWithHistoryComponent/> */}
+      <StorageComponent/>
     </div>
   );
 }
