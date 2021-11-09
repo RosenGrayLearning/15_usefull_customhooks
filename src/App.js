@@ -9,6 +9,8 @@ import StorageComponent from './components/StorageComponent/StorageComponent';
 import AsyncComponent from './components/AsyncComponent/AsyncComponent';
 import FetchComponent from './components/FetchComponent/FetchComponent';
 import ScriptComponent from './components/ScriptComponent/ScriptComponent';
+import EventListenerComponent from  './components/EventListenerComponent/EventListenerComponent';
+
 
 function App() {
   return (
@@ -23,7 +25,8 @@ function App() {
       {/* <StorageComponent/> */}
       {/* <AsyncComponent /> */}
       {/* <FetchComponent /> */}
-      <ScriptComponent />
+      {/* <ScriptComponent /> */}
+      <EventListenerComponent/>
     </div>
   );
 }
